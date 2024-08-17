@@ -1,0 +1,25 @@
+.about .right h2 {
+  position: relative;
+}
+
+.about .right h2::before {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  top: 0px;
+  left: 0px;
+  background-color: rebeccapurple;
+}
+
+@media (max-width: 767px) {
+  .about .right {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .about .right {
+    margin-top: 30px;
+  }
+}

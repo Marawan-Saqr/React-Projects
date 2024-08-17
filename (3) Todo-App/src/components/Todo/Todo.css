@@ -1,0 +1,11 @@
+/* Placeholder styling for dark theme */
+.white-placeholder::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
+/* Placeholder styling for light theme */
+.black-placeholder::placeholder {
+  color: gray;
+  opacity: 1;
+}

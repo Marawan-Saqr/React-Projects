@@ -1,0 +1,33 @@
+.login input::placeholder {
+  color: gray;
+}
+
+.login input {
+  margin: 10px 0px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+
+.login input[class='submit'] {
+  border: none;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.login input[class='submit']:hover {
+  background-color: black;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
